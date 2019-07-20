@@ -3,54 +3,53 @@
 <head>
     <meta charset="UTF 8">
     <title>Crystal Collector</title>
-    <link rel="stylesheet" type="text/css" href= "assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href= "assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href= "assets/css/reset.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href= "assets/css/style.css">
+
 </head>
 
 <body>
-    <div class="header text-center">
+<div class="header text-center">
         <h1>CRYSTAL COLLECTOR</h1>
-        <h2>MAGIC NUMBERS</h2>
+        <h2>RANDOM NUMBER</h2>
     </div>
-    <div class="container text-center">
-        <div class="col-lg-12 instructions">
-        <p>You will be given a random number at the start of the game. There are four crystals, by clicking on a crystal you will add a specific amount of points to your score. You win the game by matching your total score to the random number. If your points add over the random number you lose. The value of each crystal is hidden until clicked on. Have fun!</p>
-    </div>
+    
     <div class="container">
         <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-            <img src="assets/images/crystal 1.jpg" alt="crystal 1 image">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+            <img src="assets/images/crystal 1.jpg" alt="crystal 1 image" width="160px">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-            <img src="assets/images/crystal 2.jpg" alt="cyrstal 2 image">
+            <img src="assets/images/crystal 2.jpg" alt="cyrstal 2 image" width="160px">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-            <img src="assets/images/crystal 3.png" alt="crystal 3 image">
+            <img src="assets/images/crystal 3.png" alt="crystal 3 image" width="160px">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-            <img src="assets/images/crystal 4.jpg" alt="crystal image 4">
+            <img src="assets/images/crystal 4.jpg" alt="crystal image 4" width="160px">
         </div>
         </div>
         </div>
+
+        <div class="container text-center">
+                <div class="col-lg-12 instructions">
+                <p>You will be given a random number at the start of the game. There are four crystals, by clicking on a crystal you will add a specific amount of points to your score. You win the game by matching your total score to the random number. If your points add over the random number you lose. The value of each crystal is hidden until clicked on. Have fun!</p>
+            </div>
+
     </div>
     </div>
-    <div class="row text-left">
-        <div class="col-lg-4 total points">
-        <h3>TOTAL SCORE:</h3>
-        <h3 id="totalScore"></h3>
-    </div>    
-    </div>
-    <div class="row">
-        <div class="col-lg-4 scores">
+    <div class="row text-center">
+            <div class="col-lg-4 total points">
+            <h3>TOTAL SCORE:</h3>
+            <h3 id="totalScore"></h3>
+    </div>   
+    <div class="col-lg-4 scores">
             <H4 class="scores"> WINS:</H4>
             <H5 class="scores">LOSSES:</H5>
-        </div>
     </div>
-    <div class="row">
-        <div class="col-lg-4 button">
+    <div class="col-lg-4 button">
             <button type="button" class="btn btn-primary">Play Again</button>
-        </div>
     </div>
 
 
