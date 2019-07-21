@@ -11,27 +11,68 @@ body {
 h1 {
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: inherit;
+    margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
+
 
 }
 h2 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0px 10px 0px;
+	letter-spacing: 3px;
 }
 h3 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
 }
 h4 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
 }
 h5 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
 }
 
 p {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+	padding: 20px 85px;
+}
+
+button {
+    margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+    color: black;
+    letter-spacing: 3px;
+    
+}
+#left {
+    width: 30%;
+    float: left;
+    padding: 20%;
+}
+#middle1 {
+    width: 33%;
+    float: left;
+    padding: 20%;
+}
+#middle2 {
+    width: 33%;
+    float: left;
+    padding: 20%;
+}
+#right {
+    width: 33%;
+    float: left;
+    padding: 20%;
 }
